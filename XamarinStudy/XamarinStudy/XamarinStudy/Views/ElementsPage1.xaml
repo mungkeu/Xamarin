@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinStudy.Views.ElementsPage1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btn1" Text="배경컬러변경" TextColor="White" BackgroundColor="Salmon" BorderWidth="5" CornerRadius="50" Clicked="btn1_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
